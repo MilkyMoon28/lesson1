@@ -1,0 +1,416 @@
+* {
+    background-color: rgb(41, 103, 165);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        color: white;
+    }
+
+    .menu__logo {
+        margin-left: 15rem;
+        margin-right: 10rem;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .menu__items {
+        margin-right: 3rem;
+    }
+
+    .side_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        color: white;
+    }
+
+    .join {
+        background-color: rgb(0, 195, 255);
+        color: white;
+        border-radius: 3px;
+        border: none;
+        margin-right: 10rem;
+        margin-left: 3rem;
+        width: 5.5rem;
+        height: 3rem;
+    }
+}
+
+.main__text {
+    color: white;
+    margin-left: 15rem;
+    margin-top: 12rem;
+    width: 20rem;
+
+    h1 {
+        color: rgb(0, 166, 255);
+        font-size: 1rem;
+    }
+
+    .heading {
+        margin-top: 0.5rem;
+        margin-bottom: 0.7rem;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .comment {
+        font-size: 1rem;
+    }
+}
+
+.buttons {
+    display: flex;
+    margin-left: 15rem;
+
+    .get {
+        color: white;
+        background-color: rgb(0, 170, 255);
+        margin-right: 1.5rem;
+        border: none;
+        border-radius: 3px;
+        height: 2.5rem;
+        width: 8rem;
+    }
+
+    .learn {
+        border-color:rgb(0, 170, 255);
+        color: rgb(0, 170, 255);
+        border-radius: 3px;
+        width: 8rem;
+    }
+}
+
+.pic img {
+    position: absolute;
+    bottom: 14rem;
+    right: 15rem;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 10rem;
+
+
+    .colums {
+        width: 300px;
+        height: 280px;
+        background-color: white;
+
+        .colums__heading {
+            background-color: white;
+            margin-left: 4rem;
+            margin-top: 1rem;
+        }
+
+        .colums__description {
+            background-color: white;
+            margin-left: 4rem;
+            margin-right: 2rem;
+            font-size: 0.8rem;
+            opacity: 0.5;
+
+        }
+
+        img {
+            margin-left: 4rem;
+            margin-top: 3rem;
+            background-color: white;
+        }
+    }
+
+}
+
+.second__part {
+    margin-top: 15rem;
+
+    .pic_girl {
+        margin-left: 25rem;
+    }
+
+    .second__text {
+        color: white;
+        width: 20rem;
+        position: absolute;
+        right: 30rem;
+        top: 90rem;
+
+    }
+
+    .title {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .description {
+        font-size: 1rem;
+        opacity: 0.7;
+    }
+
+    .more {
+        font-size: 1.2rem;
+        color: rgb(0, 170, 255);
+    }
+}
+
+.third_part {
+    margin-left: 20rem;
+    margin-top: 10rem;
+
+    .third_text {
+        color: white;
+        width: 25rem;
+
+        .practice {
+            color: rgb(0, 170, 255);
+            font-size: 0.9rem;
+        }
+
+        .watch {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .definition {
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+
+    }
+
+    .columns {
+        display: flex;
+        width: 20.5rem;
+        height: 35rem;
+        margin-top: 5rem;
+
+        .items {
+            margin-right: 1rem;
+            padding-left: 0.4rem;
+            padding-right: 0.4rem;
+            background-color: white;
+
+            .english {
+                color: rgb(89, 197, 255);
+                font-size: 1rem;
+                background-color: white;
+            }
+
+            .graphic {
+                font-size: 1rem;
+                font-weight: bold;
+                background-color: white;
+            }
+
+            .focus {
+                font-size: 1rem;
+                font-weight: bold;
+                background-color: white;
+                opacity: 0.7;
+            }
+
+            .sales {
+                font-size: 1rem;
+                background-color: white;
+                opacity: 0.7;
+            }
+
+            .learn {
+                border-color: rgb(0, 170, 255);
+                color: rgb(0, 170, 255);
+                border-radius: 12px;
+                background-color: transparent;
+                height: 2rem;
+            }
+        }
+
+    }
+}
+
+.fourth__part {
+    margin-top: 20rem;
+    margin-left: 20rem;
+
+    .fourth__text {
+        color: white;
+
+        .name {
+            color: rgb(0, 170, 255);
+            font-size: 1rem;
+        }
+
+        .slogan {
+            font-weight: bold;
+            font-size: 4rem;
+            margin-bottom: 0;
+        }
+
+        .about {
+            font-size: 1rem;
+            opacity: 0.8;
+            width: 30rem;
+        }
+
+    }
+
+    .table {
+        display: flex;
+        margin-top: 7rem;
+
+        .table__items {
+            font-size: 1rem;
+            background-color: white;
+            margin-left: 2rem;
+            padding-top: 1.5rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            width: 10rem;
+            height: 13rem;
+
+
+            img {
+                background-color: white;
+            }
+
+            .reviews {
+                background-color: white;
+                opacity: 0.7;
+                font-size: 1rem;
+                text-align: center;
+
+            }
+
+            .name-sur {
+                font-size: 0.8rem;
+                color: rgb(89, 197, 255);
+                background-color: white;
+
+            }
+
+            .profession {
+                font-size: 0.7rem;
+                background-color: white;
+            }
+        }
+    }
+}
+
+.last__part {
+    margin-left: 41.5rem;
+    margin-top: 10rem;
+    width: 25rem;
+    height: 10rem;
+    text-align: center;
+
+    .last__text {
+
+        color: white;
+
+        .advice {
+            font-size: 1rem;
+            color: rgb(0, 170, 255);
+
+        }
+
+        .products {
+            font-size: 2rem;
+            font-weight: bold;
+
+        }
+
+        .solve {
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+    }
+
+    .search {
+        margin-top: 6rem;
+
+        input {
+            width: 18rem;
+            height: 2rem;
+            background-color: white;
+        }
+
+        .sub {
+            border: none;
+            border-radius: 2px;
+            height: 2.2rem;
+            font-size: 0.7rem;
+            margin-left: 0;
+            background-color: rgb(0, 170, 255);
+        }
+    }
+}
+
+
+
+
+
+footer {
+    display: flex;
+    text-align: center;
+    margin-top: 20rem;
+    padding: 10rem;
+    color: white;
+
+    .first__row {
+        width: 15rem;
+        margin-left: 10rem;
+        text-align: left;
+        list-style: none;
+
+        .get {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .quick {
+            font-size: 0.7rem;
+            margin-bottom: 1rem;
+
+        }
+    }
+
+    .second__row {
+        width: 15rem;
+        text-align: left;
+        list-style: none;
+
+    }
+
+    .third__row {
+        width: 15rem;
+        text-align: left;
+        list-style: none;
+    }
+
+    .fourth__row {
+        width: 15rem;
+        text-align: left;
+        list-style: none;
+    }
+
+    .status {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .content {
+        font-size: 1rem;
+    }
+}

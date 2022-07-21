@@ -1,0 +1,342 @@
+* {
+  background-color: rgb(41, 103, 165);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+.navbar .menu__logo {
+  margin-left: 15rem;
+  margin-right: 10rem;
+  font-weight: bold;
+  font-size: 28px;
+}
+.navbar .menu__items {
+  margin-right: 3rem;
+}
+.navbar .side_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+.navbar .join {
+  background-color: rgb(0, 195, 255);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  margin-right: 10rem;
+  margin-left: 3rem;
+  width: 5.5rem;
+  height: 3rem;
+}
+
+.main__text {
+  color: white;
+  margin-left: 15rem;
+  margin-top: 12rem;
+  width: 20rem;
+}
+.main__text h1 {
+  color: rgb(0, 166, 255);
+  font-size: 1rem;
+}
+.main__text .heading {
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.main__text .comment {
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 15rem;
+}
+.buttons .get {
+  color: white;
+  background-color: rgb(0, 170, 255);
+  margin-right: 1.5rem;
+  border: none;
+  border-radius: 3px;
+  height: 2.5rem;
+  width: 8rem;
+}
+.buttons .learn {
+  border-color: rgb(0, 170, 255);
+  color: rgb(0, 170, 255);
+  border-radius: 3px;
+  width: 8rem;
+}
+
+.pic img {
+  position: absolute;
+  bottom: 14rem;
+  right: 15rem;
+}
+
+.tables {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 10rem;
+}
+.tables .colums {
+  width: 300px;
+  height: 280px;
+  background-color: white;
+}
+.tables .colums .colums__heading {
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.tables .colums .colums__description {
+  background-color: white;
+  margin-left: 4rem;
+  margin-right: 2rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+.tables .colums img {
+  margin-left: 4rem;
+  margin-top: 3rem;
+  background-color: white;
+}
+
+.second__part {
+  margin-top: 15rem;
+}
+.second__part .pic_girl {
+  margin-left: 25rem;
+}
+.second__part .second__text {
+  color: white;
+  width: 20rem;
+  position: absolute;
+  right: 30rem;
+  top: 90rem;
+}
+.second__part .title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.second__part .description {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.second__part .more {
+  font-size: 1.2rem;
+  color: rgb(0, 170, 255);
+}
+
+.third_part {
+  margin-left: 20rem;
+  margin-top: 10rem;
+}
+.third_part .third_text {
+  color: white;
+  width: 25rem;
+}
+.third_part .third_text .practice {
+  color: rgb(0, 170, 255);
+  font-size: 0.9rem;
+}
+.third_part .third_text .watch {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.third_part .third_text .definition {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.third_part .columns {
+  display: flex;
+  width: 20.5rem;
+  height: 35rem;
+  margin-top: 5rem;
+}
+.third_part .columns .items {
+  margin-right: 1rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color: white;
+}
+.third_part .columns .items .english {
+  color: rgb(89, 197, 255);
+  font-size: 1rem;
+  background-color: white;
+}
+.third_part .columns .items .graphic {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+}
+.third_part .columns .items .focus {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+  opacity: 0.7;
+}
+.third_part .columns .items .sales {
+  font-size: 1rem;
+  background-color: white;
+  opacity: 0.7;
+}
+.third_part .columns .items .learn {
+  border-color: rgb(0, 170, 255);
+  color: rgb(0, 170, 255);
+  border-radius: 12px;
+  background-color: transparent;
+  height: 2rem;
+}
+
+.fourth__part {
+  margin-top: 20rem;
+  margin-left: 20rem;
+}
+.fourth__part .fourth__text {
+  color: white;
+}
+.fourth__part .fourth__text .name {
+  color: rgb(0, 170, 255);
+  font-size: 1rem;
+}
+.fourth__part .fourth__text .slogan {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.fourth__part .fourth__text .about {
+  font-size: 1rem;
+  opacity: 0.8;
+  width: 30rem;
+}
+.fourth__part .table {
+  display: flex;
+  margin-top: 7rem;
+}
+.fourth__part .table .table__items {
+  font-size: 1rem;
+  background-color: white;
+  margin-left: 2rem;
+  padding-top: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 10rem;
+  height: 13rem;
+}
+.fourth__part .table .table__items img {
+  background-color: white;
+}
+.fourth__part .table .table__items .reviews {
+  background-color: white;
+  opacity: 0.7;
+  font-size: 1rem;
+  text-align: center;
+}
+.fourth__part .table .table__items .name-sur {
+  font-size: 0.8rem;
+  color: rgb(89, 197, 255);
+  background-color: white;
+}
+.fourth__part .table .table__items .profession {
+  font-size: 0.7rem;
+  background-color: white;
+}
+
+.last__part {
+  margin-left: 41.5rem;
+  margin-top: 10rem;
+  width: 25rem;
+  height: 10rem;
+  text-align: center;
+}
+.last__part .last__text {
+  color: white;
+}
+.last__part .last__text .advice {
+  font-size: 1rem;
+  color: rgb(0, 170, 255);
+}
+.last__part .last__text .products {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.last__part .last__text .solve {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+.last__part .search {
+  margin-top: 6rem;
+}
+.last__part .search input {
+  width: 18rem;
+  height: 2rem;
+  background-color: white;
+}
+.last__part .search .sub {
+  border: none;
+  border-radius: 2px;
+  height: 2.2rem;
+  font-size: 0.7rem;
+  margin-left: 0;
+  background-color: rgb(0, 170, 255);
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  margin-top: 20rem;
+  padding: 10rem;
+  color: white;
+}
+footer .first__row {
+  width: 15rem;
+  margin-left: 10rem;
+  text-align: left;
+  list-style: none;
+}
+footer .first__row .get {
+  font-size: 2rem;
+  font-weight: bold;
+}
+footer .first__row .quick {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+footer .second__row {
+  width: 15rem;
+  text-align: left;
+  list-style: none;
+}
+footer .third__row {
+  width: 15rem;
+  text-align: left;
+  list-style: none;
+}
+footer .fourth__row {
+  width: 15rem;
+  text-align: left;
+  list-style: none;
+}
+footer .status {
+  font-weight: bold;
+  font-size: 2rem;
+}
+footer .content {
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
