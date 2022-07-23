@@ -1,0 +1,64 @@
+.part_one {
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+.part_one .text_one {
+  width: 18rem;
+  text-align: center;
+  margin-left: 13rem;
+}
+.part_one button {
+  position: absolute;
+  left: 26%;
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.part_one img {
+  height: 40%;
+  width: 40%;
+  margin-top: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.part_two {
+  position: absolute;
+  left: 70rem;
+  top: 10rem;
+}
+.part_two img {
+  height: 40%;
+  width: 20%;
+}
+.part_two .img_card {
+  height: 70%;
+  width: 70%;
+  margin-top: 3rem;
+}
+.part_two .left_img {
+  position: absolute;
+  top: 0rem;
+  left: 20rem;
+}
+.part_two .right_img {
+  position: absolute;
+  top: 6rem;
+}
+.part_two .info {
+  width: 18rem;
+  text-align: left;
+}
+.part_two .info .start {
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
