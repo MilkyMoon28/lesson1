@@ -1,0 +1,82 @@
+.part_one {
+    margin-left: 10rem;
+    margin-top: 3rem;
+
+    .text_one {
+        width: 18rem;
+        text-align: center;
+        margin-left: 13rem;
+    }
+
+    button {
+        position: absolute;
+        left: 26%;
+        height: 2rem;
+        width: 6rem;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+
+    img {
+        height: 40%;
+        width: 40%;
+        margin-top: 3rem;
+    }
+
+}
+
+
+.title {
+    font-size: 2rem;
+
+}
+
+.part_two {
+    position: absolute;
+    left: 70rem;
+    top: 10rem;
+    img{
+        height: 40%;
+        width: 20%;
+    }
+    
+    .img_card {
+        height: 70%;
+        width: 70%;
+        margin-top: 3rem;
+    }
+    
+    .left_img{
+        position: absolute;
+        top: 0rem;
+        left: 20rem;
+    }
+    .right_img{
+        position: absolute;
+        top: 6rem;
+        
+    }
+
+
+    .info {
+        width: 18rem;
+        text-align: left;
+
+
+        .start {
+            height: 2rem;
+            width: 6rem;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+
+
+
+
+
+}
